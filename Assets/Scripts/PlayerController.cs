@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
-            if(isGrounded == true)
+            //if(isGrounded == true)
             {
                 Debug.Log("space");
                 rb.AddForce(Vector3.up * jumpForce * Time.deltaTime, ForceMode.Impulse);
